@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обо мне</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #181818;
+            color: #eee;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .center-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 40px auto 16px auto;
+            border: 2px solid #444;
+            display: block;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .contacts {
+            margin-top: 24px;
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+        }
+        .contacts a {
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .contacts a:hover svg {
+            fill: #1976d2;
+            transform: scale(1.1);
+        }
+        .contacts svg {
+            width: 32px;
+            height: 32px;
+            fill: #bbb;
+            transition: fill 0.2s, transform 0.2s;
+        }
+        .profile-photo {
+    width:550px;
+    height: 350px;
+    border-radius: 24px;
+    object-fit: cover;
+    margin: 40px auto 16px auto;
+    border: 2px solid #444;
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+    <div class="center-container">
+        <img src="file:///C:/Users/teres/OneDrive/Pictures/photo_2023-08-18_16-16-55%20(2).jpg" alt="Моя фотография" class="profile-photo">
+        <h2>Привет, я Павел!</h2>
+        <p>
+            Я начинающий веб-разработчик. Люблю создавать красивые и удобные сайты.<br>
+            Готов к новым проектам и сотрудничеству!
+        </p>
+        <div class="contacts">
+            <a href="https://t.me/hoshikimura" target="_blank" title="Telegram">
+                <svg viewBox="0 0 24 24">
+                    <path d="M9.99 16.2l-.39 3.45c.56 0 .8-.24 1.09-.53l2.62-2.49 5.44 3.97c1 .55 1.72.26 1.97-.92l3.58-16.76c.36-1.67-.6-2.33-1.67-2.02L2.22 9.3c-1.62.51-1.6 1.23-.28 1.56l4.37 1.37 10.16-6.41c.48-.31.92-.14.56.2"/>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/hoshi_kimura/" target="_blank" title="Instagram">
+                <svg viewBox="0 0 24 24">
+                    <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5.25.75a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg>
+            </a>
+            <a href="mailto:tereshchenko2006@email.com" title="Email">
+                <svg viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zm0 12H4V8l8 5 8-5v10z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
